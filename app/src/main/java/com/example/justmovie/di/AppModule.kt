@@ -23,13 +23,6 @@ object AppModule {
     @Singleton
     fun provideBaseUrl() = BASE_URL
 
-    /*@Provides
-    @Singleton
-    fun provideHttpLoggingInterceptor(): HttpLoggingInterceptor {
-        return HttpLoggingInterceptor()
-            .setLevel(HttpLoggingInterceptor.Level.BODY)
-    }*/
-
     @Provides
     @Singleton
     fun provideHttpLoggingInterceptor() =  HttpLoggingInterceptor ()
