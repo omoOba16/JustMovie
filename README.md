@@ -25,3 +25,17 @@ JustMovie is an Android application built with Jetpack Compose that allows users
 *   **Retrofit & OkHttp:** (Assumed, if fetching data from a remote API like TMDB) For networking.
 *   **Dagger Hilt:**  For dependency injection.
 *   **Android Architecture Components:** Leveraging modern Android development patterns (MVVM).
+
+*   ### API Key
+
+This project uses The Movie Database (TMDB) API. To run the app, you need to obtain an API key and an Access Token from TMDB.
+
+1.  Create an account at [TMDB](https://www.themoviedb.org/signup).
+2.  Go to your account settings, then the "API" section.
+3.  Request an API Key.
+4.  You will also need your **API Read Access Token (v4 auth)**.
+
+Once you have your Access Token:
+
+1.  Create a `local.properties` file in the root of your project (if it doesn't already exist).
+2.  Add your TMDB Access Token to the `local.properties` file:
